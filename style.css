@@ -15,29 +15,12 @@ h1, h2 {
     font-family: 'DM Serif Display', serif;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    padding: 20px 40px;
-    border-bottom: 1px solid #111111;
-}
-
-nav ul a {
-    text-decoration: none;
-    color: #111111;
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-family: 'Inter', sans-serif;
-}
-
 section {
-    padding: 80px 40px;
+    padding: 80px 30px;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.1;
     margin-bottom: 10px;
 }
@@ -51,4 +34,87 @@ h2 {
 p {
     font-size: 18px;
     max-width: 600px;
+}
+
+header {
+    padding: 16px 40px;
+    border-bottom: 1px solid #111111;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.header-date {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.lang-switcher {
+    display: flex;
+    gap: 16px;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    color: #888888;
+}
+
+.lang-btn.active {
+    color: #111111;
+    font-weight: 500;
+}
+
+.header-title {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.site-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    display: block;
+    width: 100%;
+}
+
+.site-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #888888;
+    max-width: 100%;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 12px 0;
+}
+
+.main-nav a {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #888888;
+  
+}
+
+.main-nav a:hover {
+    color: #111111;
 }

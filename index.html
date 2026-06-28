@@ -8,24 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#my-story">My Story</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
-    </nav>
+    <header>
+    <div class="header-top">
+        <span class="header-date" id="current-date"></span>
+        <div class="lang-switcher">
+            <button onclick="switchLang('en')" class="lang-btn active">English</button>
+            <button onclick="switchLang('ru')" class="lang-btn">Russian</button>
+        </div>
+    </div>
 
-    <section id="home">
-        <h1>hi it's Mark here</h1>
-        <h2>this is my personal website</h2>
-        <p>i'm a graduated computer engineer with a passion for making software solutions with a drop of creativity and art</p>
-    </section>
+    <div class="header-title">
+        <h1 class="site-title">Portfolio</h1>
+        <p class="site-subtitle">Mark Makarevich</p>
+    </div>
+    <nav class="main-nav">
+    <a href="#my-story">My Story</a>
+    <a href="#projects">Projects</a>
+</nav>
+</header>
 
     <section id="my-story">
+        <h2>My Story</h2>
+        <p>The quick brown fox jumps over the lazy dog</p>
     </section>
-
-    <section id="projects">
-    </section>
+    <script src="script.js"></script>
 </body>
 </html>
