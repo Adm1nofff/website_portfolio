@@ -11,3 +11,13 @@ setInterval(function() {
     let currentDate = `${days[date.getDay()]}, ${shortMonths[monthIndex]} ${day}, ${year} `;
     document.getElementById("current-date").textContent = currentDate;
 }, 1000);
+
+function switchLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+        el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    event.target.classList.add('active');
+}

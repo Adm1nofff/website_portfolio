@@ -7,119 +7,116 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
-
-
-
 <body>
     <header>
-    <div class="header-top">
-        <span class="header-date" id="current-date"></span>
-        <div class="lang-switcher">
-            <button onclick="switchLang('en')" class="lang-btn active">English</button>
-            <button onclick="switchLang('ru')" class="lang-btn">Russian</button>
+        <div class="header-top">
+            <span class="header-date" id="current-date"></span>
+            <div class="lang-switcher">
+                <button onclick="switchLang('en')" class="lang-btn active">English</button>
+                <button onclick="switchLang('ru')" class="lang-btn">Russian</button>
+            </div>
         </div>
-    </div>
-
-    <div class="header-title">
-        <h1 class="site-title">Portfolio</h1>
-        <p class="site-subtitle">Mark Makarevich</p>
-    </div>
-    <nav class="main-nav">
-    <a href="#my-story">My Story</a>
-    <a href="#projects">Projects</a>
-</nav>
-</header>
+        <div class="header-title">
+            <h1 class="site-title" data-en="Portfolio" data-ru="Портфолио">Portfolio</h1>
+            <p class="site-subtitle">Mark Makarevich</p>
+        </div>
+        <nav class="main-nav">
+            <a href="#my-story" data-en="My Story" data-ru="Моя История">My Story</a>
+            <a href="#projects" data-en="Projects" data-ru="Проекты">Projects</a>
+        </nav>
+    </header>
 
     <section id="my-story">
         <div class="story-layout">
-        <aside class="aside-left">
-    <p class="aside-label">University</p>
-    <img src="assets/img/abu.jpeg" alt="Antalya Bilim University">
-    <p class="aside-title">Antalya Bilim University</p>
-    <p class="aside-text">Private university in Antalya, Turkey. Founded in 2011. Faculty of Engineering offers programs in Computer, Civil, and Electrical Engineering.</p>
-    <p class="aside-year">Est. 2011 · Antalya, Turkey</p>
-</aside>
+            <aside class="aside-left">
+                <p class="aside-label" data-en="University" data-ru="Университет">University</p>
+                <img src="assets/img/abu.jpeg" alt="Antalya Bilim University">
+                <p class="aside-title">Antalya Bilim University</p>
+                <p class="aside-text" data-en="Private university in Antalya, Turkey. Founded in 2011. Faculty of Engineering offers programs in Computer, Civil, and Electrical Engineering." data-ru="Частный университет в Анталье, Турция. Основан в 2011 году. Факультет инженерии предлагает программы по компьютерной, гражданской и электротехнической инженерии.">Private university in Antalya, Turkey. Founded in 2011. Faculty of Engineering offers programs in Computer, Civil, and Electrical Engineering.</p>
+                <p class="aside-year" data-en="Est. 2011 · Antalya, Turkey" data-ru="Осн. 2011 · Анталья, Турция">Est. 2011 · Antalya, Turkey</p>
+            </aside>
 
+            <div class="story-text">
+                <h2 data-en="My Story" data-ru="Моя История">My Story</h2>
+                <p data-en="Overall, my story began during my teenage years, or maybe even earlier, when I spent a lot of time at the computer and was truly inspired by people who were able to present their own interesting projects to the world — projects that could change entire industries, especially the gaming industry, because for many of us, it all started with games." data-ru="В общем, моя история началась в подростковом возрасте, а может и раньше, когда я очень много времени проводил за компьютером и вдохновлялся людьми, способными представить миру свои интересные проекты — проекты, которые могут менять целые индустрии, особенно игровую, ведь для многих из нас всё начиналось именно с игр.">Overall, my story began during my teenage years, or maybe even earlier, when I spent a lot of time at the computer and was truly inspired by people who were able to present their own interesting projects to the world — projects that could change entire industries, especially the gaming industry, because for many of us, it all started with games.</p>
+                <p data-en="My first game was Half-Life. It was a truly great gaming project, and in my opinion, it inspired many people to begin their journey in programming. The same thing happened to me." data-ru="Моей первой игрой был Half-Life. По-настоящему великий игровой проект, который, по моему мнению, вдохновил многих людей начать путь в программировании. То же самое случилось и со мной.">My first game was Half-Life. It was a truly great gaming project, and in my opinion, it inspired many people to begin their journey in programming. The same thing happened to me.</p>
+                <p data-en="Later in life, I realized that my path in programming should truly begin at university. At the age of 17, I entered Antalya Bilim University. Far away from my home, in a foreign country, I touched the world of engineering for the first time." data-ru="В более позднем возрасте я понял, что мой путь в программировании должен по-настоящему начаться в университете. В 17 лет я поступил в Университет Анталья Билим. Вдали от родного дома, в чужой стране, я впервые прикоснулся к миру инженерии.">Later in life, I realized that my path in programming should truly begin at university. At the age of 17, I entered Antalya Bilim University. Far away from my home, in a foreign country, I touched the world of engineering for the first time.</p>
+                <p data-en='Of course, during my university years, I studied "very hard" :) But that did not stop me from learning the fundamentals, which I later used to create university projects and which I will continue to develop in the future.' data-ru='Конечно, во время учёбы в университете я "очень усердно" занимался :) Но это не помешало мне освоить базу, с помощью которой я делал проекты в университете и которую продолжу развивать в будущем.'>Of course, during my university years, I studied "very hard" :) But that did not stop me from learning the fundamentals, which I later used to create university projects and which I will continue to develop in the future.</p>
+                <p data-en="In the middle of my studies, I realized that I was more drawn not to monotonous and uninspired code writing, but to creative thinking, generating ideas, and bringing them to life." data-ru="В середине обучения я понял, что меня больше привлекает не монотонное и безыдейное написание кода, а творческое мышление, придумывание идей и воплощение их в жизнь.">In the middle of my studies, I realized that I was more drawn not to monotonous and uninspired code writing, but to creative thinking, generating ideas, and bringing them to life.</p>
+            </div>
 
-
-        <div class="story-text">
-        <h2>My Story</h2>
-        <p>Overall, my story began during my teenage years, or maybe even earlier, when I spent a lot of time at the computer and was truly inspired by people who were able to present their own interesting projects to the world — projects that could change entire industries, especially the gaming industry, because for many of us, it all started with games.</p>
-        <p>My first game was Half-Life. It was a truly great gaming project, and in my opinion, it inspired many people to begin their journey in programming. The same thing happened to me.</p>
-        <p>Later in life, I realized that my path in programming should truly begin at university. At the age of 17, I entered Antalya Bilim University. Far away from my home, in a foreign country, I touched the world of engineering for the first time.</p>
-        <p>Of course, during my university years, I studied “very hard” :) But that did not stop me from learning the fundamentals, which I later used to create university projects and which I will continue to develop in the future.</p>
-        <p>In the middle of my studies, I realized that I was more drawn not to monotonous and uninspired code writing, but to creative thinking, generating ideas, and bringing them to life.</p>
-        </div>
-
-        <aside class="aside-right">
-    <p class="aside-label">Game</p>
-    <img src="assets/img/halflife.jpg" alt="Half-Life">
-    <p class="aside-title">Half-Life</p>
-    <p class="aside-text">First-person shooter by Valve, released in 1998. Sold over 12 million copies. Widely credited for pushing narrative-driven game design and inspiring a generation of developers.</p>
-    <p class="aside-year">Valve · 1998</p>
-</aside>
+            <aside class="aside-right">
+                <p class="aside-label" data-en="Game" data-ru="Игра">Game</p>
+                <img src="assets/img/halflife.jpg" alt="Half-Life">
+                <p class="aside-title">Half-Life</p>
+                <p class="aside-text" data-en="First-person shooter by Valve, released in 1998. Sold over 12 million copies. Widely credited for pushing narrative-driven game design and inspiring a generation of developers." data-ru="Шутер от первого лица от Valve, вышедший в 1998 году. Продано более 12 миллионов копий. Считается одной из игр, вдохновивших целое поколение разработчиков.">First-person shooter by Valve, released in 1998. Sold over 12 million copies. Widely credited for pushing narrative-driven game design and inspiring a generation of developers.</p>
+                <p class="aside-year">Valve · 1998</p>
+            </aside>
         </div>
     </section>
+
     <section id="projects">
-        <h2>Projects</h2>
+        <h2 data-en="Projects" data-ru="Проекты">Projects</h2>
         <div class="projects-grid">
             <article class="project-featured">
-    <p class="project-label">Senior Project · Fall 2025 · Grade: A</p>
-    <h3>AI Vision-Based Robotic Harvesting Arm</h3>
-    <p class="project-desc">Low-cost robotic arm that uses YOLOv8 on Raspberry Pi 4 to detect and classify ripe fruit, then commands a 5-DOF servo arm via Arduino to pick it autonomously. Built as a team of 5 at Antalya Bilim University.</p>
-    
-    <div class="project-how">
-        <div class="how-step">
-            <p class="how-num">01</p>
-            <p class="how-title">Detect</p>
-            <p class="how-desc">Camera streams live video · YOLOv8 classifies fruit</p>
-        </div>
-        <div class="how-step">
-            <p class="how-num">02</p>
-            <p class="how-title">Decide</p>
-            <p class="how-desc">Pi selects ripest target · computes coordinates</p>
-        </div>
-        <div class="how-step">
-            <p class="how-num">03</p>
-            <p class="how-title">Harvest</p>
-            <p class="how-desc">Arduino drives 5 servos · gripper picks fruit</p>
-        </div>
-    </div>
+                <p class="project-label" data-en="Senior Project · Fall 2025 · Grade: A" data-ru="Финальный Проект · Осень 2025 · Оценка: A">Senior Project · Fall 2025 · Grade: A</p>
+                <h3 data-en="AI Vision-Based Robotic Harvesting Arm" data-ru="Роботизированная Рука для Сбора Урожая на основе ИИ">AI Vision-Based Robotic Harvesting Arm</h3>
+                <p class="project-desc" data-en="Low-cost robotic arm that uses YOLOv8 on Raspberry Pi 4 to detect and classify ripe fruit, then commands a 5-DOF servo arm via Arduino to pick it autonomously. Built as a team of 5 at Antalya Bilim University." data-ru="Бюджетная роботизированная рука, использующая YOLOv8 на Raspberry Pi 4 для обнаружения и классификации спелых плодов, затем управляющая 5-степенной сервоприводной рукой через Arduino для автономного сбора. Создана командой из 5 человек в Университете Анталья Билим.">Low-cost robotic arm that uses YOLOv8 on Raspberry Pi 4 to detect and classify ripe fruit, then commands a 5-DOF servo arm via Arduino to pick it autonomously. Built as a team of 5 at Antalya Bilim University.</p>
+                <div class="project-how">
+                    <div class="how-step">
+                        <p class="how-num">01</p>
+                        <p class="how-title" data-en="Detect" data-ru="Обнаружение">Detect</p>
+                        <p class="how-desc" data-en="Camera streams live video · YOLOv8 classifies fruit" data-ru="Камера транслирует видео · YOLOv8 классифицирует плоды">Camera streams live video · YOLOv8 classifies fruit</p>
+                    </div>
+                    <div class="how-step">
+                        <p class="how-num">02</p>
+                        <p class="how-title" data-en="Decide" data-ru="Решение">Decide</p>
+                        <p class="how-desc" data-en="Pi selects ripest target · computes coordinates" data-ru="Pi выбирает самый спелый плод · вычисляет координаты">Pi selects ripest target · computes coordinates</p>
+                    </div>
+                    <div class="how-step">
+                        <p class="how-num">03</p>
+                        <p class="how-title" data-en="Harvest" data-ru="Сбор">Harvest</p>
+                        <p class="how-desc" data-en="Arduino drives 5 servos · gripper picks fruit" data-ru="Arduino управляет 5 сервоприводами · захват берёт плод">Arduino drives 5 servos · gripper picks fruit</p>
+                    </div>
+                </div>
+                <div class="project-stack">
+                    <span>Python</span>
+                    <span>YOLOv8</span>
+                    <span>OpenCV</span>
+                    <span>Raspberry Pi 4</span>
+                    <span>Arduino</span>
+                    <span>C/C++</span>
+                </div>
+            </article>
 
-    <div class="project-stack">
-        <span>Python</span>
-        <span>YOLOv8</span>
-        <span>OpenCV</span>
-        <span>Raspberry Pi 4</span>
-        <span>Arduino</span>
-        <span>C/C++</span>
-    </div>
-</article>
-<article class="project-card">
-    <p class="project-label">In Progress · 2026</p>
-    <h3>#####################</h3>
-    <p class="project-desc">################################################</p>
-    <div class="project-stack">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-    </div>
-</article>
+            <article class="project-card">
+                <p class="project-label" data-en="In Progress · 2026" data-ru="В разработке · 2026">In Progress · 2026</p>
+                <h3>#####################</h3>
+                <p class="project-desc">################################################</p>
+                <div class="project-stack">
+                    <span>1</span><span>2</span><span>3</span>
+                </div>
+            </article>
 
-<article class="project-card">
-    <p class="project-label">In Progress · 2026</p>
-    <h3>#####################</h3>
-    <p class="project-desc">############################################################</p>
-    <div class="project-stack">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-    </div>
-</article>
-    </div>
-</article>
+            <article class="project-card">
+                <p class="project-label" data-en="In Progress · 2026" data-ru="В разработке · 2026">In Progress · 2026</p>
+                <h3>#####################</h3>
+                <p class="project-desc">############################################################</p>
+                <div class="project-stack">
+                    <span>1</span><span>2</span><span>3</span>
+                </div>
+            </article>
         </div>
+    </section>
+
+    <section id="contact">
+    <h2 data-en="Get in Touch" data-ru="Связаться">Get in Touch</h2>
+    <p class="contact-desc" data-en="Open to junior developer roles and remote internships. I reply fast." data-ru="Открыт к junior позициям и удалённым стажировкам. Отвечаю быстро.">Open to junior developer roles and remote internships. I reply fast.</p>
+    <div class="contact-links">
+        <a href="mailto:markmak2005@gmail.com">Email</a>
+        <a href="https://github.com/Adm1nofff" target="_blank">GitHub</a>
+    </div>
+</section>
     <script src="script.js"></script>
 </body>
 </html>
