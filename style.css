@@ -181,10 +181,10 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .project-featured {
-    grid-column: 1 / -1;
     border-top: 2px solid var(--color-main);
     padding-top: 24px;
 }
@@ -223,4 +223,54 @@ section {
     font-size: var(--text-xs);
     letter-spacing: 0.05em;
     color: var(--color-muted);
+}
+
+.aside-left img, .aside-right img {
+    width: 100%;
+    margin-bottom: 10px;
+    filter: grayscale(100%) sepia(20%);
+}
+
+.project-how {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    margin: 24px 0;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 20px 0;
+}
+
+.how-num {
+    font-family: var(--serif);
+    font-size: var(--text-2xl);
+    color: #dddddd;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.how-title {
+    font-family: var(--serif);
+    font-size: var(--text-lg);
+    color: var(--color-main);
+    margin-bottom: 4px;
+}
+
+.how-desc {
+    font-family: var(--sans);
+    font-size: var(--text-xs);
+    color: var(--color-muted);
+    max-width: 100%;
+}
+
+.project-card {
+    border-top: 1px solid #dddddd;
+    padding-top: 24px;
+}
+
+.project-card h3 {
+    font-family: var(--serif);
+    font-size: var(--text-xl);
+    margin-bottom: 12px;
+    margin-top: 8px;
 }
