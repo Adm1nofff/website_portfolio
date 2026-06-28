@@ -118,3 +118,87 @@ header {
 .main-nav a:hover {
     color: #111111;
 }
+
+
+#my-story p {
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#my-story h2 {
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+
+#projects {
+    padding: 80px 40px;
+    border-top: 1px solid #111111;
+}
+
+#projects h2 {
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    color: #111111;
+    margin-bottom: 32px;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+.project-featured {
+    border-top: 2px solid #111111;
+    padding-top: 24px;
+    max-width: 680px;
+}
+
+.project-label {
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #888888;
+    margin-bottom: 8px;
+}
+
+.project-featured h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    color: #111111;
+}
+
+.project-desc {
+    font-size: 16px;
+    color: #444444;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.project-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-stack span {
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 4px 10px;
+    color: #111111;
+}
+
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 32px;
+}
+
+.project-featured {
+    grid-column: 1 / -1;
+}
